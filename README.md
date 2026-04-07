@@ -111,3 +111,14 @@ This project is an **Excel-based interactive sales dashboard** designed to analy
 ---
 
 ## File Structure
+
+---
+
+## Technologies Used
+- Microsoft Excel (Pivot Tables, Charts, Formulas, Slicers)  
+- Advanced Excel functions for KPIs and calculated fields  
+
+---
+
+## Conclusion
+This dashboard provides a **comprehensive view of online retail sales**, combining multiple dimensions—customer, geography, channels, and operational metrics—to enable actionable insights. The included **report page** demonstrates the ability to summarize analytical findings and provide clear business recommendations. It demonstrates strong Excel skills, data analysis capability, and business acumen suitable for portfolio or professional presentation.
