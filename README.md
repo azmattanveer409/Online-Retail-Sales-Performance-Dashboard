@@ -45,7 +45,7 @@ This project is an **Excel-based interactive sales analytics dashboard** built o
 * Age Group segmentation
 
 ## 📸 Dashboard Preview
-![Dashboard Screenshot](dashboard.png)
+![Dashboard](dashboard.png)
 
 
 ## ⚙️ Data Processing & Workflow
