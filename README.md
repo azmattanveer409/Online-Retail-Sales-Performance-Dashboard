@@ -1,124 +1,167 @@
-# Online Retail Sales Performance Analysis 
+# 📊 Online Retail Sales Analytics Dashboard (Excel | 31K+ Transactions)
 
-## Project Overview
-This project is an **Excel-based interactive sales dashboard** designed to analyze over 31,000 online retail transactions. It provides insights into **customer demographics, sales performance, channels, operational efficiency, and order trends**. The dashboard supports data-driven business decision-making and includes a dedicated **report page** with insights and recommendations.
+## 🚀 Overview
 
----
-
-## Dashboard Screenshot
-![Dashboard Screenshot](screenshot.png)
-*Replace `screenshot.png` with your actual dashboard image.*
+This project is an **Excel-based interactive sales analytics dashboard** built on 31,000+ online retail transactions. It analyzes customer behavior, sales performance, regional trends, and operational efficiency to generate actionable business insights. The dashboard includes pivot tables, dynamic slicers, KPIs, visual charts, and a dedicated report page for insights and recommendations.
 
 ---
 
-## Dataset Columns
-- **Order Details:** Order ID, Customer ID, Date, Month  
-- **Customer Information:** Age, Age Group, Gender  
-- **Product Details:** SKU, Category, Size, Quantity, Amount  
-- **Operational Metrics:** Order Status, Channel, Ship City, Ship Postal Code, Ship Country, B2B  
-- **Derived Metrics:** Age Group, Month, Order Success Rate, Return Rate, Cancellation Rate  
+## 🎯 Objectives
+
+* Clean and structure raw retail transaction data
+* Create meaningful calculated fields (Age Group, Month, Order Status KPIs)
+* Build pivot tables for multi-dimensional analysis
+* Design an interactive dashboard using slicers and KPIs
+* Generate business insights and recommendations
 
 ---
 
-## Key Features
+## 📂 Dataset Overview
 
-### KPIs
-- Total Revenue  
-- Total Orders  
-- Total Quantity  
-- **Order Success Rate** (replaces previous Quantity KPI)  
-- Average Order Value  
+### Customer Information
 
-### Charts
-1. **Age & Gender** – Customer Demographics (Column Chart)  
-2. **Gender Share** – Revenue Contribution by Gender (Pie Chart)  
-3. **Top States by Revenue** – Geographic Performance (Pie Chart)  
-4. **Sales by Platform** – Channel Performance (Pie Chart)  
-5. **Monthly Sales & Orders** – Time-Based Trends (Line Chart)  
-6. **Order Status** – Fulfillment Metrics (3D Pie Chart)  
+* Gender, Age, Age Group (Teenager, Adult, Senior)
 
-### Slicers
-- Month, Country, Channel  
-- Optional: Age Group  
+### Order Details
 
-### Report Page
-- A dedicated **Excel report page** has been created that summarizes **Insights & Recommendations** based on the data analysis and dashboard metrics.  
+* Order ID, Customer ID, Date, Month, Status
 
----
+### Product Information
 
-## Insights & Recommendations
+* SKU, Category (Blouse, Kurta, Saree, Top, etc.), Size, Quantity, Amount
 
-### Insights
-- **Customer Demographics:** Adults contribute the largest portion of orders; women account for 64% of total revenue.  
-- **Geography:** Maharashtra is the top revenue-generating state, followed by Uttar Pradesh and Telangana.  
-- **Channel Performance:** Amazon leads the platform sales share at 35.5%, followed by Myntra and Flipkart.  
-- **Order Trends:** Sales peak around March and gradually decline toward the end of the year.  
-- **Operational Performance:** 92% of orders are delivered successfully; return and cancellation rates are low (3% and 3%, respectively).  
-- **Order Success Rate:** Indicates strong fulfillment performance across all channels.  
+### Operational Data
 
-### Recommendations
-1. **Customer Targeting:** Focus marketing campaigns toward female customers and adult age group segments.  
-2. **Geographic Focus:** Allocate more resources and promotions in Maharashtra and other high-performing states.  
-3. **Channel Optimization:** Strengthen partnerships with high-performing platforms like Amazon and Myntra.  
-4. **Operational Improvements:** Maintain high delivery rates and monitor returns/cancellations to sustain customer satisfaction.  
-5. **Trend Analysis:** Use monthly sales trends to plan inventory and promotional activities strategically.  
+* Channel (Amazon, Flipkart, Myntra, Meesho, etc.)
+* Ship City, State, Country
+* B2B flag
+
+### Derived Metrics
+
+* Order Success Rate
+* Return Rate
+* Cancellation Rate
+* Month extracted from date
+* Age Group segmentation
+
+## 📸 Dashboard Preview
+![Dashboard Screenshot](dashboard.png)
+
+
+## ⚙️ Data Processing & Workflow
+
+* Data Cleaning and preprocessing in Excel
+* Feature engineering (Age Group, Month, KPI metrics)
+* Pivot Table creation (10–12 analytical views)
+* Dashboard design with slicers and charts
+* Insight extraction and reporting
 
 ---
 
-## Usage Instructions
-1. Open `Online_Retail_Sales_Performance_Dashboard.xlsx`.  
-2. Use slicers to filter by **Month, Country, or Channel**.  
-3. Review KPIs at the top for instant insights.  
-4. Analyze charts for trends in **customer demographics, revenue, channels, and operational metrics**.  
-5. Check the **Report Page** for full insights and actionable recommendations.
+## 📊 Dashboard Features
+
+### 🔑 KPIs
+
+* Total Revenue: **21,176,377**
+* Total Orders: **31,047**
+* Total Quantity Sold: **31,237**
+* Average Order Value: **682.07**
+* Order Success Rate (high fulfillment efficiency)
 
 ---
 
-## File Structure5. **Monthly Sales & Orders** – Time-Based Trends (Line Chart)  
-6. **Order Status** – Fulfillment Metrics (3D Pie Chart)  
+### 📈 Visualizations
 
-### Slicers
-- Month, Country, Channel  
-- Optional: Age Group  
-
----
-
-## Insights & Recommendations
-
-### Insights
-- **Customer Demographics:** Adults contribute the largest portion of orders; women account for 64% of total revenue.  
-- **Geography:** Maharashtra is the top revenue-generating state, followed by Uttar Pradesh and Telangana.  
-- **Channel Performance:** Amazon leads the platform sales share at 35.5%, followed by Myntra and Flipkart.  
-- **Order Trends:** Sales peak around March and gradually decline toward the end of the year.  
-- **Operational Performance:** 92% of orders are delivered successfully; return and cancellation rates are low (3% and 3%, respectively).  
-- **Order Success Rate:** Indicates strong fulfillment performance across all channels.  
-
-### Recommendations
-1. **Customer Targeting:** Focus marketing campaigns toward female customers and adult age group segments.  
-2. **Geographic Focus:** Allocate more resources and promotions in Maharashtra and other high-performing states.  
-3. **Channel Optimization:** Strengthen partnerships with high-performing platforms like Amazon and Myntra.  
-4. **Operational Improvements:** Maintain high delivery rates and monitor returns/cancellations to sustain customer satisfaction.  
-5. **Trend Analysis:** Use monthly sales trends to plan inventory and promotional activities strategically.  
+* **Age & Gender Analysis** (Column Chart)
+* **Gender Share in Sales** (Pie Chart – 64% Women, 36% Men)
+* **Top 5 States by Sales** (Bar/Pie Chart)
+* **Channel Performance** (Amazon, Myntra, Flipkart, etc.)
+* **Monthly Sales Trend** (Line Chart)
+* **Order Status Distribution** (Delivered, Returned, Cancelled)
 
 ---
 
-## Usage Instructions
-1. Open `Online_Retail_Sales_Performance_Dashboard.xlsx`.  
-2. Use slicers to filter by **Month, Country, or Channel**.  
-3. Review KPIs at the top for instant insights.  
-4. Analyze charts for trends in **customer demographics, revenue, channels, and operational metrics**.  
+### 🎛️ Slicers
+
+* Month
+* Age Group
+* Category
+* Channel
 
 ---
 
-## File Structure
+## 📊 Key Insights
+
+### 👥 Customer Behavior
+
+* Women contribute **64% of total sales**
+* Adults are the highest purchasing segment
+* Teenagers show strong engagement compared to seniors
 
 ---
 
-## Technologies Used
-- Microsoft Excel (Pivot Tables, Charts, Formulas, Slicers)  
-- Advanced Excel functions for KPIs and calculated fields  
+### 🌍 Regional Performance
+
+* Maharashtra is the top-performing state (~3M sales)
+* Karnataka and Uttar Pradesh follow
+* Tamil Nadu and Telangana underperform
 
 ---
 
-## Conclusion
-This dashboard provides a **comprehensive view of online retail sales**, combining multiple dimensions—customer, geography, channels, and operational metrics—to enable actionable insights. The included **report page** demonstrates the ability to summarize analytical findings and provide clear business recommendations. It demonstrates strong Excel skills, data analysis capability, and business acumen suitable for portfolio or professional presentation.
+### 🛒 Channel Performance
+
+* Amazon dominates with **35.5% share**
+* Myntra (23.4%) and Flipkart (21.6%) follow
+* Other channels contribute smaller but meaningful share
+
+---
+
+### 📉 Sales Trends
+
+* Peak sales in **March**
+* Gradual decline toward year-end
+* Indicates seasonal demand fluctuations
+
+---
+
+### ⚙️ Operational Performance
+
+* **92% orders successfully delivered**
+* Low return and cancellation rates (~3% each)
+* Strong fulfillment efficiency across channels
+
+---
+
+## 💡 Recommendations
+
+* Focus marketing on **adult and teenage women segments**
+* Strengthen presence in **Maharashtra & Karnataka**
+* Improve penetration in **Tamil Nadu & Telangana**
+* Reduce dependency on Amazon by boosting Myntra & Flipkart
+* Introduce **seasonal/festival campaigns** to stabilize yearly sales
+* Enhance loyalty programs for customer retention
+
+---
+
+## 📈 Conclusion
+
+This Excel project demonstrates a complete **end-to-end business analytics workflow**, from raw data cleaning to dashboard design and insight generation. It highlights strong skills in **data analysis, visualization, and business storytelling**, making it suitable for a professional portfolio.
+
+---
+
+## 🛠️ Tools Used
+
+* Microsoft Excel
+* Pivot Tables & Pivot Charts
+* Slicers & Conditional Formulas
+* Data Cleaning & Transformation
+
+---
+
+## 🚀 Outcome
+
+* Clear understanding of customer segments
+* Identification of high-performing regions and channels
+* Data-driven recommendations for business growth
+* Fully interactive Excel dashboard for decision-making
+
