@@ -66,7 +66,7 @@ This project is an **Excel-based interactive sales analytics dashboard** built o
 * Total Orders: **31,047**
 * Total Quantity Sold: **31,237**
 * Average Order Value: **682.07**
-* Order Success Rate (high fulfillment efficiency)
+* Order Success Rate **92%**
 
 ---
 
